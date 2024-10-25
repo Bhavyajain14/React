@@ -1,18 +1,17 @@
 import React from "react";
 
-function Card(props) {
-  console.log("props", props);
-
+function Card({ Username, para = "sunset" }) {
   return (
-    <div className="max-w-xs rounded overflow-hidden shadow-lg my-2">
+    <div className="max-w-xs rounded overflow-hidden shadow-lg my-2 bg-orange-500">
       <img
         className="w-full"
         src="https://tailwindcss.com/img/card-top.jpg"
         alt="Sunset in the mountains"
       />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+        <div className="font-bold text-xl mb-2">{Username}</div>
         <p className="text-grey-darker text-base">
+          {para}
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
           quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
           nihil.

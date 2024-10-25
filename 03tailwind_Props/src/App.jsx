@@ -12,7 +12,8 @@ function App() {
       <h1 className="text-rose-700 bg-green-400 p-4 rounded-xl mb-10">
         Tailwind test
       </h1>
-      <Card channelname="ChaiAurcode" arr = { } />
+      <Card Username="Beautiful sunset" para="view " />
+      <Card Username="Sunset" />
     </>
   );
 }
